@@ -1,13 +1,13 @@
 {
   "name": "api_tscript_meyreanusia",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {"dev": "nodemon --watch \"srcts/\" -e \"ts, json\" --exec \"ts-node srcts/index.ts\"",
-  "build": "tsc",
-  "prod": "npm run build && node outjs/index.js",
-  "start":"node outjs/index.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "dev": "nodemon --watch \"srcts/\" -e \"ts, json\" --exec \"ts-node srcts/index.ts\"",
+    "build": "tsc",
+    "prod": "npm run build && node outjs/index.js",
+    "start": "node outjs/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,14 @@
     "@types/node": "^18.11.7",
     "@types/nodemon": "^1.19.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meyreanusia/programacao-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meyreanusia/programacao-2/issues"
+  },
+  "homepage": "https://github.com/meyreanusia/programacao-2#readme",
+  "description": ""
 }
